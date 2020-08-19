@@ -1,7 +1,6 @@
 package com.lseg.arrays;
 
 public class Tema1Arrays {
-
     public static void main(String[] args)
     {
         // Creare array initial
