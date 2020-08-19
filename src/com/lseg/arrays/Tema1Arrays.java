@@ -3,10 +3,9 @@ package com.lseg.arrays;
 public class Tema1Arrays {
     public static void main(String[] args)
     {
-
         // Creare array initial
-        int n = 7;
-        int d = 2;
+        int n = 5;
+        int d = 3;
         int[] a = new int[n];
         System.out.print ("Array-ul initial: ");
         for (int i = 0; i < n; i++)
