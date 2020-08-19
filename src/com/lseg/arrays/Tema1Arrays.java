@@ -3,6 +3,7 @@ package com.lseg.arrays;
 public class Tema1Arrays {
     public static void main(String[] args)
     {
+
         // Creare array initial
         int n = 7;
         int d = 2;
