@@ -1,4 +1,4 @@
-package com.lseg.arrays;
+package com.lseg.Tema1;
 
 public class Tema1Arrays {
     public static void main(String[] args)

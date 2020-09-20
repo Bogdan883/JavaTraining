@@ -1,4 +1,4 @@
-package com.lseg.arrays;
+package com.lseg.Tema2;
 
 import java.util.Arrays;
 import java.util.Random;
