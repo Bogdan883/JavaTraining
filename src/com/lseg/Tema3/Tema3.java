@@ -16,9 +16,8 @@ public class Tema3 {
     }
 
     //Ex. 1
-    static double ConvertToKmPerHour(double milesPerHour)
-    {
-        return milesPerHour*1.609344;
+    static double ConvertToKmPerHour(double milesPerHour) {
+        return milesPerHour * 1.609344;
     }
 
     //Ex. 2
@@ -29,30 +28,31 @@ public class Tema3 {
             }
         }
         return false;
-        }
-        //Ex. 3
-        static boolean isLeapYear(int year){
-            if (year >= 1 && year <= 9999) {
-                if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0) {
-                    return true;
-                } else if (year % 4 == 0 && year % 100 != 0) {
-                    return true;
-                }
+    }
+
+    //Ex. 3
+    static boolean isLeapYear(int year) {
+        if (year >= 1 && year <= 9999) {
+            if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0) {
+                return true;
+            } else if (year % 4 == 0 && year % 100 != 0) {
+                return true;
             }
-            return false;
         }
-        //Ex. 4
-        static boolean isCatPlaying(boolean summer, int temperature){
-        if(summer && (temperature>25 && temperature<=45)){
+        return false;
+    }
+
+    //Ex. 4
+    static boolean isCatPlaying(boolean summer, int temperature) {
+        if (summer && (temperature > 25 && temperature <= 45)) {
             return true;
-        }
-        else if(!summer && temperature>25 && temperature<=35){
+        } else if (!summer && temperature > 25 && temperature <= 35) {
             return true;
         }
         return false;
-        }
-
     }
+
+}
 
 
 
