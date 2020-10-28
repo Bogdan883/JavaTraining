@@ -14,12 +14,12 @@ public class Exercise1 {
                 int x = scanner.nextInt();
                 int y = scanner.nextInt();
                 System.out.println(x / y);
-            } catch (InputMismatchException error) {
+            } catch (InputMismatchException e) {
                 System.out.println("java.util.InputMismatchException");
             }
 
-        } catch (Exception error) {
-            System.out.println(error);
+        } catch (Exception e) {
+            System.out.println(e);
         }
 
     }
