@@ -44,7 +44,7 @@ public class Point {
 
     //named distance with parameter another of type Point
     public double distance(Point another) {
-        return Math.sqrt((x - another.x ) * (x - another.x) + (y - another.y) * (y - another.y));
+        return Math.sqrt((x - another.x) * (x - another.x) + (y - another.y) * (y - another.y));
 
     }
 }
