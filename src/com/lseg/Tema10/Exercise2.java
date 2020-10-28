@@ -14,7 +14,6 @@ public class Exercise2 {
                 throw new Exception("n and p should not be zero.");
             return (long) Math.pow(n, p);
         }
-
     }
 
 
